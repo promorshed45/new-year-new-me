@@ -132,9 +132,13 @@ main {
 
 /* positive minds section */
 .positive-mind{
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)),url('../images/watch.png');
-    padding: 30px;
-    opacity: 0.5;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(107, 6, 56)),url('../images/watch.png');
+    /* padding: 30px 500px 30px 100px; */
+    border-radius: 10px;
+}
+.positive-mind-card {
+    padding: 50px 500px 30px 100px;
+    
 }
 .positive-title {
     color: #FFF;
@@ -145,7 +149,7 @@ main {
     line-height: normal;
 }
 
-.call-btn {
+.btn-secondary {
     padding: 18px 30px;
     color: #F15B22;
     font-size: 20px;
@@ -154,3 +158,44 @@ main {
     background: #fff;
     border-radius: 5px;
 }
+
+/* footer section */
+
+.footer-section{
+        background-color: #151414;
+        padding: 115px;
+        color: white;
+        display: flex;
+}
+.footer-card{
+    width: 50%;
+    margin-right: 350px;
+}
+.footer-card p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.icon-img{
+    margin-right: 10px;
+    width: 35px;
+}
+.footer-title {
+    font-size: 45px; }
+.mail-card {
+    display: block;
+}
+.mail-title{
+    font-size: 25px; 
+}
+input[type=text] {
+    width: 80%;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #151414;
+    box-sizing: border-box;
+    margin: 20px 0px;
+  }
