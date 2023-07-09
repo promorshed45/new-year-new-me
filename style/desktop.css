@@ -135,6 +135,7 @@ main {
     background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(107, 6, 56)),url('../images/watch.png');
     /* padding: 30px 500px 30px 100px; */
     border-radius: 10px;
+    margin: 0px 0px 100px;
 }
 .positive-mind-card {
     padding: 50px 500px 30px 100px;
